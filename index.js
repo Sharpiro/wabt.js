@@ -30,10 +30,4 @@ var ha=[DE,XB,YB,ZB,_B,$B,aC,bC,cC,dC,eC,Wc,Zc,bd,kd,od,sd,wd,Dd,Hd,Kd,Rd,ne,qe,
 }
 );
 })();
-if (typeof exports === 'object' && typeof module === 'object')
-      module.exports = WabtModule;
-    else if (typeof define === 'function' && define['amd'])
-      define([], function() { return WabtModule; });
-    else if (typeof exports === 'object')
-      exports["WabtModule"] = WabtModule;
-    
+export { WabtModule }
